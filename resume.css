@@ -1,0 +1,152 @@
+
+.header{
+    text-align: center;
+    padding: 0;
+    
+}
+.one{
+    background-color: gray;
+    height: 120px;
+    display: block;
+
+}
+.two{
+    background-color: white;
+    height: 50px;
+    display: block;
+}
+.three{
+    background-color: gray;
+    height: 50px;
+    display: block;
+}
+img{
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid white;
+    align-items: center;
+    margin: 3px auto;
+}
+.center-box{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 100px;
+    background-color: lightcoral;
+    z-index: 2;
+    border-radius: 10px;
+    font: bold 5vw black;
+}
+
+@media only screen and (max-width: 600px) {
+    .center-box {
+        font-size: 3vw; 
+        width: 50%;
+    }
+}
+
+.header p{
+    display: inline;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+   
+    
+    
+}
+
+.left-column, .right-column {
+    width: 48%; /* Adjust as needed */
+}
+
+.left-column {
+    background-color: whitesmoke;
+    
+}
+
+.right-column {
+    background-color: whitesmoke;
+    
+}
+.line {
+    border-right: 1px solid black;
+    height: 100%;
+}
+
+.percentage-bar {
+    width: 75%;
+    height: 2px;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: black; /* Background color of the bar */
+    border-radius: 5px;
+    overflow: hidden; /* Hides overflow content */
+    flex-direction: row-reverse;
+    margin-left: auto;
+    
+}
+
+.fillerjs {
+    height: 5px;
+    width: 85%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.fillercss {
+    height: 5px;
+    width: 85%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.fillerhtml {
+    height: 5px;
+    width: 70%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.fillerreact {
+    height: 5px;
+    width: 90%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.fillerredux {
+    height: 5px;
+    width: 60%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.fillermongo {
+    height: 5px;
+    width: 50%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.fillerdeply {
+    height: 5px;
+    width: 75%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.fillerprjmgmt {
+    height: 5px;
+    width: 65%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.fillerrecr {
+    height: 5px;
+    width: 50%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.fillerbusdev {
+    height: 5px;
+    width: 80%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.filleredi {
+    height: 5px;
+    width: 75%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
+.fillerfund {
+    height: 5px;
+    width: 60%; /* Set the percentage width you want here */
+    background-color: orangered; /* Color of the filled portion */
+}
